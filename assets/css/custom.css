@@ -1,0 +1,19 @@
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text-center{
+    text-align: center;
+}
+.center{
+    align-items: center !important;
+    justify-content: center;
+}
+.f2{
+    font-size: 20;
+}
+.f3{
+    font-size: 30;
+}
+.f4{
+    font-size: 40;
+}
