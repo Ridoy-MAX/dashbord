@@ -28,7 +28,10 @@
 .pos-rel{
     position: relative !important;
 }
-
+.chat-system  .cating{
+    background: url(../img/pexels-merlin-lightpainting-9303351.jpg);
+    background-size: cover;
+}
 .chat-system  .cating .bubble{
     position: relative;
 }
