@@ -29,6 +29,22 @@
     position: relative !important;
 }
 
+.chat-system  .cating .bubble{
+    position: relative;
+}
+
+.chat-system  .cating .bubble .img{ 
+    position: absolute;
+    left: -43px;
+}
+
+.chat-system  .cating .bubble .img1{
+    position: absolute;
+    right: -43px;
+} 
+
+
+
 .cat-sent {
     background-color: rgba(36, 26, 26, 0.562) !important;
 }
