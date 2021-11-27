@@ -65,7 +65,7 @@
     background-color: rgba(0, 0, 0, 0.26) !important;
     border: 1px solid rgba(90, 88, 86, 0.103);
     position: absolute;
-    left: -35%;
+    left: -40px;
     color: white;
     opacity: 0;
     transition: 0.4s;
@@ -84,7 +84,8 @@
     background-color: rgba(0, 0, 0, 0.26) !important;
     border: 1px solid rgba(90, 88, 86, 0.103);
     position: absolute;
-    right: -35%;
+    /* right: -35%; */
+    right: -40px;
     color: white;
 }
 #close{
@@ -93,14 +94,14 @@
   
     color: rgb(167, 23, 23);
 }
-.show{
+.show1{
     display: visible !important;
-    background-color: rgb(105, 156, 204) !important;
+    /* background-color: rgb(105, 156, 204) !important; */
     display: flex;
-    width: 100%;
+    width: 100% !important;
    padding-left: 10px;
+   padding-bottom: 2px;
    padding-top: 8px;
-   padding-top: 10px;
 
 }
 

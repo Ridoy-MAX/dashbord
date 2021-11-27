@@ -12,7 +12,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 
@@ -25,7 +25,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply2==============
@@ -37,7 +37,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply3==============
@@ -49,7 +49,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply4==============
@@ -61,7 +61,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply5==============
@@ -73,14 +73,14 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 
 
 
 
-// reply Close==============
+// reply==============
 var contant = document .getElementById("contant");
 var button1 = document .getElementById("close");
 button1.onclick = function(){
@@ -106,7 +106,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply2
@@ -118,7 +118,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply3
@@ -130,7 +130,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply4
@@ -142,7 +142,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply5
@@ -154,7 +154,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 // reply6
@@ -166,7 +166,7 @@ button.onclick = function(){
 
     }
     else{
-        contant.className = " show";
+        contant.className = " show1";
     }
 }
 
