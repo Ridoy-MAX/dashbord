@@ -17,7 +17,7 @@
 .f4{
     font-size: 40;
 }
-
+/*========== chatting=============== */
 .pos-ab{
     position: absolute !important;
 }
@@ -34,6 +34,8 @@
 }
 .chat-system  .cating .bubble{
     position: relative;
+    padding: 5px 10px !important;
+    margin-bottom: 20px !important;
 }
 
 .chat-system  .cating .bubble .img{ 
@@ -46,7 +48,61 @@
     right: -43px;
 } 
 
+.chat-system   #contant{
+    background-color: rgb(105, 156, 204) !important;
+    /* display: none !important; */
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0px !important;
 
+}
+
+.hidden{
+    display: none !important;
+    transition: 0.4s;
+}
+.bubble .reply-me{
+    background-color: rgba(0, 0, 0, 0.26) !important;
+    border: 1px solid rgba(90, 88, 86, 0.103);
+    position: absolute;
+    left: -35%;
+    color: white;
+    opacity: 0;
+    transition: 0.4s;
+}
+.bubble:hover .reply-me{
+    opacity: 1;
+}
+
+#reply,
+#reply1,
+#reply2,
+#reply3,
+#reply4,
+#reply5
+{
+    background-color: rgba(0, 0, 0, 0.26) !important;
+    border: 1px solid rgba(90, 88, 86, 0.103);
+    position: absolute;
+    right: -35%;
+    color: white;
+}
+#close{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 1px solid rgba(90, 88, 86, 0.103);
+  
+    color: rgb(167, 23, 23);
+}
+.show{
+    display: visible !important;
+    background-color: rgb(105, 156, 204) !important;
+    display: flex;
+    width: 100%;
+   padding-left: 10px;
+   padding-top: 8px;
+   padding-top: 10px;
+
+}
 
 .cat-sent {
     background-color: rgba(36, 26, 26, 0.562) !important;
@@ -68,13 +124,29 @@
 
     /* height: calc(100vh - 179px); */
 }
-.bubble a{
+ #reply,
+ #reply1,
+ #reply2,
+ #reply3,
+ #reply4,
+ #reply5
+{
     opacity: 0;
 transition: 00.45s;
 }
-.bubble:hover a{
+.bubble:hover #reply,
+.bubble:hover #reply1,
+.bubble:hover #reply2,
+.bubble:hover #reply3,
+.bubble:hover #reply4,
+.bubble:hover #reply5
+{
     opacity: 1 !important;
 } 
+
+
+
+/*========== chatting end============== */
 @media (max-width: 575px){
 
    

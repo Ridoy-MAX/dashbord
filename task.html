@@ -38,6 +38,23 @@
         </div>
     </div>
 </div>
+<!--reply Modal -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalCenterTitle">Save succesful</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            <!-- <div class="modal-body">
+                <p class="modal-text">Save succesful</p>
+            </div> -->
+       
+        </div>
+    </div>
+</div>
 
 <!-- BEGIN LOADER -->
 <div id="load_screen"> <div class="loader"> <div class="loader-content">
@@ -393,12 +410,16 @@
                                                     <div class="conversation-start">
                                                         <span>Today, 5:38 PM</span>
                                                     </div>
-                                                    <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
+                                                    <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center" >
                                                       <div class="img">
                                                         <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
                                                       </div>
+                                                  
                                                         Hello!
-                                                        <a href="" class="m-2 "><i class="fas fa-reply"></i></a>
+                                                     <button id="reply" class="reply"><i class="fas fa-reply  "></i> </button>
+                                                        
+                                                       
+                                                      
 
                                                     </div>
 
@@ -406,7 +427,7 @@
                                                           <div class="img1">
                                                             <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
                                                           </div>
-                                                          <a href="" class="m-2 text-white"><i class="fas fa-reply"></i></a>
+                                                          <button id="reply-me" class="reply-me"><i class="fas fa-reply  "></i> </button>
                                                             Hello! sir                      
                                                     </div>
 
@@ -414,90 +435,107 @@
                                                         <div class="img1">
                                                           <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
                                                         </div>
-                                                        <a href="" class="m-2 text-white"><i class="fas fa-reply"></i></a>
-                                                          How can i help you?                     
+                                                        <button id="reply-me1" class="reply-me"><i class="fas fa-reply  "></i> </button>
+                                                         How can i help you ?                     
                                                   </div>
 
-                                                    <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
-                                                        <div class="img">
-                                                          <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
-                                                        </div>
-                                                          I need this product.
-                                                          <a href="" class="m-2 "><i class="fas fa-reply"></i></a>
-  
-                                                      </div>
+                                                  <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center" >
+                                                    <div class="img">
+                                                      <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
+                                                    </div>
+                                                
+                                                       I want to place my order.
+                                                      <button id="reply1"><i class="fas fa-reply  "></i> </button>
+                                                  </div>
                                                    
-                                                      <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
-                                                        <div class="img">
-                                                          <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
-                                                        </div>
-                                                          Can you place my order ? 
-                                                          <a href="" class="m-2 "><i class="fas fa-reply"></i></a>
-  
-                                                      </div>
-                                                      <div class="bubble me d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
-                                                        <div class="img1">
-                                                          <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
-                                                        </div>
-                                                        <a href="" class="m-2 text-white"><i class="fas fa-reply"></i></a>
-                                                          Of course .                   
+                                                  <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center" >
+                                                    <div class="img">
+                                                      <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
+                                                    </div>
+                                                
+                                                     Can you plz do this ?
+                                                   <button id="reply2"><i class="fas fa-reply  "></i> </button>
                                                   </div>
                                                   <div class="bubble me d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
                                                     <div class="img1">
                                                       <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
                                                     </div>
-                                                    <a href="" class="m-2 text-white"><i class="fas fa-reply"></i></a>
-                                                      You will get your product next day.                    
-                                                  </div>
-                                                    <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
-                                                        <div class="img">
-                                                          <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
-                                                        </div>
-                                                          Ohh.
-                                                          <a href="" class="m-2 "><i class="fas fa-reply"></i></a>
-  
-                                                      </div>
-                                                      <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
-                                                        <div class="img">
-                                                          <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
-                                                        </div>
-                                                         Thank you.
-                                                          <a href="" class="m-2 "><i class="fas fa-reply"></i></a>
-  
-                                                      </div>
-                                                      <div class="bubble me d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
-                                                        <div class="img1">
-                                                          <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
-                                                        </div>
-                                                        <a href="" class="m-2 text-white"><i class="fas fa-reply"></i></a>
-                                                          You are welcome..                    
-                                                  </div>
-                                                  <div class="bubble me d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
-                                                    <div class="img1">
-                                                      <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
-                                                    </div>
-                                                    <a href="" class="m-2 text-white"><i class="fas fa-reply"></i></a>
-                                                      See you..                      
+                                                    <button id="reply-me2" class="reply-me"><i class="fas fa-reply  "></i> </button>
+                                                     Of course sir.                     
                                               </div>
-                                                 
+                                              <div class="bubble me d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
+                                                <div class="img1">
+                                                  <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
+                                                </div>
+                                                <button id="reply-me3" class="reply-me"><i class="fas fa-reply  "></i> </button>
+                                                  We place your order.                    
+                                               </div>
+                                                  <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center" >
+                                                    <div class="img">
+                                                      <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
+                                                    </div>
+                                                
+                                                      Thank you.
+                                                      <button id="reply3"><i class="fas fa-reply  "></i> </button>
+                                                  </div>
+                                                  <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center" >
+                                                    <div class="img">
+                                                      <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
+                                                    </div>
+                                                
+                                                      How many days it took. ?
+                                                   <button id="reply4"><i class="fas fa-reply  "></i> </button>
+                                                  </div>
+                                                  <div class="bubble me d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
+                                                    <div class="img1">
+                                                      <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
+                                                    </div>
+                                                    <button id="reply-me4" class="reply-me"><i class="fas fa-reply  "></i> </button>
+                                                      Next two days you will get this.                   
+                                              </div>
+
+                                              <div class="bubble me d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
+                                                <div class="img1">
+                                                  <img src="assets/img/design-for-logo-11549988276bxsuzsd1y1.png" alt="" class=" round" style="width: 30px;border-radius: 50%;">
+                                                </div>
+                                                <button id="reply-me5" class="reply-me"><i class="fas fa-reply  "></i> </button>
+                                                  See you then.                    
+                                              </div>
                                                    
-                                                    <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center">
+                                              <div class="bubble you d-flex mb-2 pb-0 pt-0 mx-5 align-items-center" >
                                                         <div class="img">
                                                           <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 30px;border-radius: 50%;">
                                                         </div>
-                                                          Ok.
-                                                          <a href="" class="m-2 "><i class="fas fa-reply"></i></a>
-  
-                                                      </div>
+                                                    
+                                                         See you
+                                                       <button id="reply5"><i class="fas fa-reply  "></i> </button>
+                                              </div>
                                                    
                                                   
-                                                </div>   
+                                                </div>
                                                 
-  
-                                             
+     <!-- ================== reply Chat system start============================== -->
+                                                <div class="  d-flex  p-1  pt-2 hidden w-100 contant" id="contant">
+                                                  
+                                                   <div class="card col mb-3">
+                                                    <strong>   <img src="assets/img/pngtree-red-and-black-logo-png-image_5517319.jpg" alt="" class=" round" style="width: 25px;border-radius: 50%;"> Manager!</strong> 
+                                                    <p>Hello !</p>
+                                                   </div>
+
+                                                   <div class="close align-items-center d-flex ">
+                                                    <!-- <a href="#" class="text-black m-2 "><i class="fas fa-times mb-3"></i></a> -->
+                                                    <button id="close"><i class="fas fa-times mb-3"></i> </button>
+                                                   </div>
+
+                                                </div> 
+
+    <!-- ================== reply Chat system end============================== -->
+
+       <!-- ==================msg sent system ============================== -->
+
                                                 <div class="from col-md d-flex  bg-primary text-white p-1 pos-ab pos-ab-b-0 sticky-sm-top">
                                                
-                                                   <div class="col-md-8 pb-0 mb-0 mt-1">
+                                                   <div class="col-md-8 pb-0 mb-0 mt-1 ">
                                                     <form class="chat-form" action="javascript:void(0);" >
                                                         
                                                         <input type="text" class="mail-write-box form-control" placeholder="Message"/>
@@ -514,7 +552,7 @@
                                                 
                                                  
                                                 </div>   
-
+      <!-- ==================msg sent system end ============================== -->
                                     </div>
 
                                   
@@ -539,6 +577,8 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/coustom.js"></script>
     
     <script>
         $(document).ready(function() {
