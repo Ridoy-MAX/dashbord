@@ -17,7 +17,9 @@
 .f4{
     font-size: 40;
 }
-/*========== chatting=============== */
+/*========== 
+chatting
+=============== */
 .pos-ab{
     position: absolute !important;
 }
@@ -144,8 +146,21 @@ transition: 00.45s;
 {
     opacity: 1 !important;
 } 
+/*========== 
+chatting
+=============== */
 
-
+.proses{
+    background-color: rgb(24, 184, 196);
+    color: whitesmoke;
+    width: 140px;
+   border-radius: 50px;
+   text-align: center;
+   padding: 2px;
+}
+.end{
+    background-color: rgb(214, 116, 23) !important;
+}
 
 /*========== chatting end============== */
 @media (max-width: 575px){
