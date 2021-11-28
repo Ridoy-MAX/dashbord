@@ -34,6 +34,10 @@ chatting
     background: url(../img/pexels-merlin-lightpainting-9303351.jpg);
     background-size: cover;
 }
+.chat-system  .cating1{
+    background: url(../img/pexels-merlin-lightpainting-9303351.jpg) !important;
+    background-size: cover
+}
 .chat-system  .cating .bubble{
     position: relative;
     padding: 5px 10px !important;
@@ -50,7 +54,9 @@ chatting
     right: -43px;
 } 
 
-.chat-system   #contant{
+.chat-system   #contant,
+.chat-system   #contant1
+{
     background-color: rgb(105, 156, 204) !important;
     /* display: none !important; */
     position: absolute;
@@ -81,7 +87,19 @@ chatting
 #reply2,
 #reply3,
 #reply4,
-#reply5
+#reply5,
+#reply6,
+#reply7,
+#reply8,
+#reply9,
+#reply10,
+#reply11,
+#reply12,
+#reply13,
+#reply14,
+#reply15,
+#reply16,
+#reply17
 {
     background-color: rgba(0, 0, 0, 0.26) !important;
     border: 1px solid rgba(90, 88, 86, 0.103);
@@ -90,7 +108,9 @@ chatting
     right: -40px;
     color: white;
 }
-#close{
+#close,
+#close1
+{
     background-color: rgba(0, 0, 0, 0) !important;
     border: 1px solid rgba(90, 88, 86, 0.103);
   
@@ -127,12 +147,24 @@ chatting
 
     /* height: calc(100vh - 179px); */
 }
- #reply,
- #reply1,
- #reply2,
- #reply3,
- #reply4,
- #reply5
+#reply,
+#reply1,
+#reply2,
+#reply3,
+#reply4,
+#reply5,
+#reply6,
+#reply7,
+#reply8,
+#reply9,
+#reply10,
+#reply11,
+#reply12,
+#reply13,
+#reply14,
+#reply15,
+#reply16,
+#reply17
 {
     opacity: 0;
 transition: 00.45s;
@@ -142,7 +174,19 @@ transition: 00.45s;
 .bubble:hover #reply2,
 .bubble:hover #reply3,
 .bubble:hover #reply4,
-.bubble:hover #reply5
+.bubble:hover #reply5,
+.bubble:hover #reply6,
+.bubble:hover #reply7,
+.bubble:hover #reply8,
+.bubble:hover #reply9,
+.bubble:hover #reply10,
+.bubble:hover #reply11,
+.bubble:hover #reply12,
+.bubble:hover #reply13,
+.bubble:hover #reply14,
+.bubble:hover #reply15,
+.bubble:hover #reply16,
+.bubble:hover #reply17
 {
     opacity: 1 !important;
 } 
