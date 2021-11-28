@@ -229,4 +229,11 @@ chatting
         position: none !important;
     }
 
+    .chat-system  .cating1{
+        background: url(../img/pexels-merlin-lightpainting-9303351.jpg) !important;
+        background-size: cover;
+        margin-top: 320px !important;
+
+    }
+
 }
