@@ -54,8 +54,7 @@ chatting
     right: -43px;
 } 
 
-.chat-system   #contant,
-.chat-system   #contant1
+.chat-system   #contant
 {
     background-color: rgb(105, 156, 204) !important;
     /* display: none !important; */
@@ -64,8 +63,18 @@ chatting
     margin-bottom: 0px !important;
 
 }
-
+.chat-system   #contant-two{
+    background-color: rgb(105, 156, 204) !important;
+    /* display: none !important; */
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0px !important;
+}
 .hidden{
+    display: none !important;
+    transition: 0.4s;
+}
+.hidden-two{
     display: none !important;
     transition: 0.4s;
 }
@@ -117,6 +126,16 @@ chatting
     color: rgb(167, 23, 23);
 }
 .show1{
+    display: visible !important;
+    /* background-color: rgb(105, 156, 204) !important; */
+    display: flex;
+    width: 100% !important;
+   padding-left: 10px;
+   padding-bottom: 2px;
+   padding-top: 8px;
+
+}
+.show-two{
     display: visible !important;
     /* background-color: rgb(105, 156, 204) !important; */
     display: flex;
